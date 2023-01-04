@@ -6,7 +6,7 @@ A simple survey application
 To run this project, using npm:
 
 ```
-$ cd ../calculator
+$ cd ../questionnarie-app
 $ npm install
 $ npm start
 ```
