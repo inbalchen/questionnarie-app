@@ -1,0 +1,77 @@
+{
+    "questionnaries": [
+        {
+            "id": 1,
+            "title": "GoTech Questionnarie",
+            "description": "Show me what you got!",
+            "required": "* Required",
+            "questions": [
+                {
+                    "id": "1_que1",
+                    "type": "radio",
+                    "title": "What language is your favorite?",
+                    "isRequired": true,
+                    "choices": [
+                        {
+                            "value": "javascript",
+                            "label": "JavaScript",
+                            "isTextField": false
+                        },
+                        {
+                            "value": "typescript",
+                            "label": "TypeScript",
+                            "isTextField": false
+                        },
+                        {
+                            "value": "coffescript",
+                            "label": "CoffeScript",
+                            "isTextField": false
+                        }
+                    ]
+                },
+                {
+                    "id": "1_que2",
+                    "type": "text",
+                    "title": "Why do you like {value}?",
+                    "visibleIf": "1_que1-TypeScript",
+                    "isRequired": false
+                },
+                {
+                    "id": "1_que3",
+                    "type": "text",
+                    "title": "What do you like about programing?",
+                    "visibleIf": "",
+                    "isRequired": false
+                },
+                {
+                    "id": "1_que4",
+                    "type": "radio",
+                    "title": "How was the assignment?",
+                    "isRequired": true,
+                    "choices": [
+                        {
+                            "value": "easy",
+                            "label": "Easy",
+                            "isTextField": false
+                        },
+                        {
+                            "value": "normal",
+                            "label": "Normal",
+                            "isTextField": false
+                        },
+                        {
+                            "value": "hard",
+                            "label": "Hard",
+                            "isTextField": false
+                        },
+                        {
+                            "value": "other",
+                            "label": "Other",
+                            "isTextField": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
