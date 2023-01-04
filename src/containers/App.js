@@ -32,7 +32,7 @@ export default function App() {
   return (
     <div className="main-container">
       {isLoading ? <CustomizedBox><CircularProgress /></CustomizedBox>
-      : error ? <div>error</div> 
+      : error ? <div>Something went wrong..</div> 
       : <div className="questions-container">
           <MainContent questions={questions} response={response} />
           {!response && <FormQuestionsComponent questions={questions.questions} setResponse={setResponse} />}
