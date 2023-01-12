@@ -1,4 +1,4 @@
-# Questionnarie Application
+# Survey Application
 A simple survey application with json-server
 
 ## Setup
@@ -6,7 +6,7 @@ A simple survey application with json-server
 To run this project, using npm:
 
 ```
-$ cd ../questionnarie-app
+$ cd ../survey-app
 $ npm install
 $ npm start
 ```
@@ -16,8 +16,3 @@ open another terminal and run:
 ```
 $ json-server --watch db.json
 ```
-
-## Summary
-
-I appreciate the opportunity.
-Feedback would be greatly appreciated.

@@ -2,7 +2,7 @@
     "questionnaries": [
         {
             "id": 1,
-            "title": "GoTech Questionnarie",
+            "title": "FE Survey",
             "description": "Show me what you got!",
             "required": "* Required",
             "questions": [
